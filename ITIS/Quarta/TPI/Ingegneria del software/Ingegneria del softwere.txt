@@ -1,0 +1,36 @@
+Ingegneria del softwere = disciplina che da metodologie, processi e strumenti per produrre softwere affidabile efficiente e manutenibile.
+
+Requisiti = Analisi completa dei bisogni del cliente per definire ciò che il sistema deve fare.
+
+Identificazione degli stakeholder = Portatori di interesse, capire a chi interessa tramite delle interviste.
+
+Fasi:
+
+Analisi requisiti:
+
+Requisiti funzionali = Cosa fa il software
+Requisiti non funzionali = Caratteristiche di qualità del sistema
+Requisiti di dominio = Rispetto di regole, normative o procedure (Es. cookies)
+Requisiti di vincolo = Limiti pratici (tecnologici, economici, temporali, organizzativi)
+Analisi della concorrenza
+Analisi di fattibiità
+User Story
+
+Progettazione
+Implementazione
+verifica e validazione
+Distribuzione
+Manutenzione ed evoluzione
+
+Esercizio =
+Registrazione utenti
+Calcolo costo
+Propone delle tappe
+
+Proposta delle tampe tramite un indice di gusto
+
+Dati personali protetti
+Informazioni veritiere
+
+Costo basso
+Programma pronto prima della vacanza
