@@ -12,25 +12,60 @@ Requisiti funzionali = Cosa fa il software
 Requisiti non funzionali = Caratteristiche di qualità del sistema
 Requisiti di dominio = Rispetto di regole, normative o procedure (Es. cookies)
 Requisiti di vincolo = Limiti pratici (tecnologici, economici, temporali, organizzativi)
-Analisi della concorrenza
-Analisi di fattibiità
-User Story
+Analisi della concorrenza = Analisi di cosa la concorrenza fa (punti di forza e di debolezza)
+Analisi di fattibiità = Capire se il progetto si può fare o meno i base ai requisiti e alle disponibilità
+User Story = Capire la storia dell'utente tramite le 3W: Who, What, Why. Nello sviluppo AGILE serve per capire concretamente a cosa serve.
 
-Progettazione
+Progettazione:
+
+Analista = Definisce requisiti
+Progettista = Definisce l'architettura
+Capo progetto = Definise l'elenco dei moduli e dei componenti, stima tempi e costi
+Team di sviluppo = Scrivono programmi
+Tester = Tracciare il comportamento dei moduli
+Sistemisti = Assemblare moduli e installare un programma completo negli ambienti di esecuzione
+
 Implementazione
 verifica e validazione
 Distribuzione
 Manutenzione ed evoluzione
 
-Esercizio =
+Le interviste:
+- Strutturate = con domande già pronte e precise
+- Non strutturate = con domande più aperte
+
+I questionari:
+- Dati quantitativi = Domande a risposta chiusa o scale di valutazione
+- Dati qualitativi = Domande aperte che lasciano libertà di espressione
+
+Osservazione = Guardare cosa fanno gli utenti
+
+Modelli:
+- A cascata: Fasi rigide, solo alla fine si manda
+- Modello agile: Usabile fin dall inizio, poi migliorato a mano a mano
+
+Scrum = Prevede cicli brevi chiamati sprint (3 ruoli, 5 eventi, 3 artefatti), Product owner, Scrum master, Development team.
+Meeting giornalieri (stand-up meeting)
+
+Esercizio = App di organizzazione dei viaggi
 Registrazione utenti
 Calcolo costo
-Propone delle tappe
+Recensioni
+Propone delle tappe tramite indice di gusto
 
-Proposta delle tampe tramite un indice di gusto
+Design intuitivo
+App Offline
 
 Dati personali protetti
 Informazioni veritiere
 
 Costo basso
 Programma pronto prima della vacanza
+
+Esercizio = Ora traduci in userstory
+
+1. Come nonno voglio regalare una vacanza ai miei nipoti per amore dei nipoti senza fargli sapere il prezzo
+2. Come lavoratire voglio prenotare in comodità una vacanza per relax
+3. Come scuola volgio organizzare un uscita didattica per tutti gli studenti
+4. Come genitori volgiamo prenotare un hotel per famiglie
+5. Com studente volgio fare una pausa da scuola con opzioni adatte alla mia età
