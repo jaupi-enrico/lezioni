@@ -1,0 +1,28 @@
+1. (maschera per dividere una Classe B in 30 sottoreti)
+Risposta: c) 255.255.248.0
+Spiegazione: da /16 servono n bit con 2^𝑛 ≥ 30
+2^5 = 32 ⇒ si prendono 5 bit → /16+5 = /21 → 255.255.248.0.
+
+2. (suddividere 128.0.0.0 in 62 sottoreti)
+Risposta: d) Non è possibile (nessuna delle maschere proposte)
+Spiegazione: il minimo n con 2^𝑛 ≥ 62 è 𝑛 = 6 → /16+6 = /22 → 255.255.252.0, che non è tra le opzioni date. (Le opzioni a e c sono maschere /26 e /30 valide ma non sono la scelta "minima" richiesta; la risposta corretta fra le proposte è quindi «Non è possibile».)
+
+3. (quali classi possono usare 255.255.192.0?)
+Risposta: c) Classe A e classe B
+Spiegazione: 255.255.192.0 = /18. Si può applicare come subnet-mask sia a indirizzi di classe A (da /8 si estende a /18) sia a indirizzi di classe B (da /16 a /18). Non è tipico applicarla a classe C senza fare supernetting.
+
+4. (Classe C, sottoreti con al massimo 30 PC)
+Risposta: a) 255.255.255.224
+Spiegazione: per ≥30 host usable servono h con 2^ℎ − 2 ≥ 30. 
+h=5 dà 2^5 − 2 = 30 → mask = /27 = 255.255.255.224.
+
+5. (Quale subnet-mask non è valida?)
+Risposta: c) 255.255.255.216
+Spiegazione: 216 in binario è 11011000 — non ha gli 1 contigui da sinistra: le maschere devono avere bit 1 consecutivi seguiti da bit 0.
+
+6. (La Subnet-mask serve…)
+Risposta: b) per definire l’ampiezza dei campi Net-ID e Host-ID in un indirizzo IP.
+
+7. (Broadcast della rete 198.16.211.0 con mask 255.255.255.192)
+Risposta: a) 198.16.211.63
+Spiegazione: 255.255.255.192 = /26 → blocco di 64 indirizzi (0–63, 64–127, ...). Per la rete che parte da .0 il broadcast è .63.
