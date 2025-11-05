@@ -1,0 +1,16 @@
+Sottoreti:
+15 Client
+3 Server
+1 Server e 5 client x ciascuna sottorete
+
+1 Router
+
+
+Rete classe B = 158.110.0.0
+Subnet Mask = 255.255.255.0
+
+
+Reti:
+158.110.1.0 => Broadcast = 158.110.1.255 => Range = 158.110.1.1 - 158.110.1.254
+158.110.2.0 => Broadcast = 158.110.2.255 => Range = 158.110.2.1 - 158.110.2.254
+158.110.3.0 => Broadcast = 158.110.3.255 => Range = 158.110.3.1 - 158.110.3.254
