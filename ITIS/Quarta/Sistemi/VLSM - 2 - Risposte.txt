@@ -1,0 +1,12 @@
+Host 89 - Sottorete 1
+Indirizzo di rete = 191.155.30.0/25
+191.155.30.89/25
+
+Host 39 - Sottorete 2
+Indirizzo di rete = 191.155.30.128/26
+191.155.30.167/26
+
+Host 9 - Sottorete 3
+Indirizzo di rete = 191.155.30.192/27
+191.155.30.201/27
+

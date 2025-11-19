@@ -1,0 +1,44 @@
+N1 = 90 host
+N2 = 40 host
+N3 = 20 host
+N4 = 10 host
+
+indirizzo rete = 191.155.30.0/24
+
+
+N1:
+
+90 host -> 7 bit -> 128 host -> 1 bit x subnetting
+
+191.155.30.0/25 -> 0 0000000 
+Broadcast -> 191.155.30.127/25 -> 0 1111111 
+Subnet mask -> 255.255.255.128 -> 1 0000000
+Host indirizzabili -> 191.155.30.1/25 - 191.155.30.126/25 -> 126 host
+Gateway = 191.155.30.126/25
+
+
+N2:
+40 host -> 6 bit -> 64 host -> 2 bit x subnetting
+
+191.155.30.128/26 -> 10 000000
+Broadcast -> 191.155.30.191/26 -> 10 111111 
+Subnet mask -> 255.255.255.192 -> 11 000000
+Host indirizzabili -> 191.155.30.129/26 - 191.155.30.190/26 -> 62 host
+Gateway = 191.155.30.190/26
+
+N3:
+20 host -> 5 bit -> 32 host -> 3 bit x subnetting
+191.155.30.192/27 -> 110 00000
+Broadcast -> 191.155.30.223/27 -> 110 11111
+Subnet mask -> 255.255.255.224 -> 111 00000
+Host indirizzabili -> 191.155.30.193/27 - 191.155.30.222/27 -> 30 host
+Gateway = 191.155.30.222/27
+
+N4:
+10 host -> 4 bit -> 16 host -> 4 bit x subnetting
+191.155.30.224/28 -> 1110 0000
+Broadcast -> 191.155.30.239/28 -> 1110 1111
+Subnet mask -> 255.255.255.240 -> 1111 0000
+Host indirizzabili -> 191.155.30.225/28 - 191.155.30.238/28 -> 14 host
+Gateway = 191.155.30.238/28
+
